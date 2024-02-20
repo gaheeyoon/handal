@@ -271,12 +271,14 @@ body {
   border-right: 1px solid var(--border-color);
   overflow: auto;
   flex-shrink: 0;
+  scrollbar-width: none; 
 }
 
 .main-container {
   padding: 25px;
   flex-grow: 1;
   overflow: auto;
+  scrollbar-width: none; 
 }
 
 .profile {
